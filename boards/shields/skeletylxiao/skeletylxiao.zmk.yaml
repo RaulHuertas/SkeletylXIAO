@@ -1,0 +1,14 @@
+file_format: "1"
+id: skeletylxiao
+name: SkeletylXIAO
+type: shield
+url: https://github.com/RaulHuertas/SkeletylXIAO
+requires: [seeeduino_xiao_ble]
+exposes: []
+features:
+  - keys
+  - studio
+siblings:
+  - skeletylxiao_left
+  - skeletylxiao_right
+  - skeletylxiao_dongle
