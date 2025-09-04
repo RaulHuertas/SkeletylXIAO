@@ -37,6 +37,8 @@
 
     
 };
-
+&usbd {
+    status = "okay";
+};
 
 
