@@ -2,7 +2,7 @@ file_format: "1"
 id: skeletylxiao
 name: SkeletylXIAO
 type: shield
-url: https://github.com/RaulHuertas/SkeletylXIAO
+url: https://github.com/RaulHuertas/SkeletylXIAO/
 requires: [seeeduino_xiao_ble]
 exposes: []
 features:
