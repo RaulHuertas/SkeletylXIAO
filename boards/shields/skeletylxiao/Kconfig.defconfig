@@ -4,9 +4,6 @@ if SHIELD_SKELETYLXIAO_LEFT
 config ZMK_KEYBOARD_NAME
     default "SkeletylXIAO"
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default n
-
 endif
 
 if SHIELD_SKELETYLXIAO_LEFT || SHIELD_SKELETYLXIAO_RIGHT
@@ -14,6 +11,8 @@ if SHIELD_SKELETYLXIAO_LEFT || SHIELD_SKELETYLXIAO_RIGHT
 config ZMK_SPLIT
     default y
 
+config ZMK_SPLIT_ROLE_CENTRAL
+    default n
 endif
 
 
