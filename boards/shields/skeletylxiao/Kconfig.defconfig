@@ -13,6 +13,7 @@ config ZMK_SPLIT
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default n
+    
 endif
 
 
@@ -23,7 +24,6 @@ if SHIELD_SKELETYLXIAO_DONGLE
 
 config ZMK_SPLIT
     default y
-
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
