@@ -24,8 +24,7 @@ include:
   - board: seeeduino_xiao_ble
     shield: skeletylxiao_dongle rgbled_adapter 
     snippet: studio-rpc-usb-uart zmk-usb-logging cdc-acm-console
-    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_USB_LOGGING=y -DCONFIG_LOG_PROCESS_THREAD_STARTUP_DELAY_MS=8000
-
+    cmake-args: -DCONFIG_ZMK_STUDIO=y 
   #HALVES
   - board: seeeduino_xiao_ble
     shield: skeletylxiao_left rgbled_adapter
