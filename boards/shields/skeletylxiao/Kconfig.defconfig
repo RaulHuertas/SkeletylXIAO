@@ -28,10 +28,10 @@ config ZMK_SPLIT
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-config CONFIG_ZMK_USB_LOGGING
+config ZMK_USB_LOGGING
     default y
 
-config CONFIG_LOG_PROCESS_THREAD_STARTUP_DELAY_MS
+config LOG_PROCESS_THREAD_STARTUP_DELAY_MS
     default 8000
 
 # Set this to the number of peripherals your dongle will have.
