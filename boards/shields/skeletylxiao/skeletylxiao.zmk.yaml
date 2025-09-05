@@ -8,6 +8,7 @@ exposes: []
 features:
   - keys
   - studio
+  - dongle
 siblings:
   - skeletylxiao_left
   - skeletylxiao_right
