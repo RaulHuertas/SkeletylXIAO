@@ -1,4 +1,4 @@
-if SHIELD_SKELETYLXIAO_LEFT
+if SHIELD_SKELETYLXIAO_LEFT || SHIELD_SKELETYLXIAO_DONGLE
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
@@ -16,16 +16,16 @@ config ZMK_SPLIT_ROLE_CENTRAL
 endif
 
 
+
+
+
 if SHIELD_SKELETYLXIAO_DONGLE
 
-# Max 16 characters in keyboard name
-config ZMK_KEYBOARD_NAME
-    default "SkeletylXIAO"
-
-config ZMK_SPLIT_ROLE_CENTRAL
+config ZMK_SPLIT
     default y
 
-config ZMK_SPLIT
+
+config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 # Set this to the number of peripherals your dongle will have.
