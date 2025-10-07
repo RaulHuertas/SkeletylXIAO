@@ -29,7 +29,7 @@
   &kp Q           &kp W           &kp E             &kp R        &kp T  &kp Y          &kp U        &kp I              &kp O            &kp P
   &hm LEFT_ALT A  &hm LEFT_WIN S  &hm LEFT_SHIFT D  &hm LCTRL F  &kp G  &kp H          &hm RCTRL J  &hm RIGHT_SHIFT K  &hm RIGHT_GUI L  &hm RIGHT_ALT SEMI
   &kp Z           &kp X           &kp C             &kp V        &kp B  &kp N          &kp M        &kp COMMA          &kp DOT          &kp FSLH
-  &none           &none           &lt 2 TAB         &lt 3 SPACE  &mo 1  &kp BACKSPACE  &kp ENTER    &lt 4 ESCAPE       &none            &none
+  &none           &none           &lt 2 TAB         &lt 3 SPACE  &mo 1  &kp BACKSPACE  &kp ENTER    &lt 8 ESCAPE       &none            &none
             >;
         };
 
@@ -98,10 +98,10 @@
 
         layer_8 {
             bindings = <
-  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+  &none              &none            &kp C_STOP  &none       &none  &none  &none  &none  &none  &none
+  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PLAY  &kp C_MUTE  &none  &none  &none  &none  &none  &none
+  &none              &none            &kp C_PREV  &kp C_NEXT  &none  &none  &none  &none  &none  &none
+  &none              &none            &none       &none       &none  &none  &none  &none  &none  &none
             >;
         };
 
