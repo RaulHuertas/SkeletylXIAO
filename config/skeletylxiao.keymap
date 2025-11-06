@@ -1,13 +1,13 @@
 /*
  * Copyright (c) 2020 The ZMK Contributors
- *
+ * 
  * SPDX-License-Identifier: MIT
  */
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 3000  // default: 600
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 8000  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 20
 #include <dt-bindings/zmk/pointing.h>
 
