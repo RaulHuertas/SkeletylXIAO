@@ -23,17 +23,17 @@ include:
   #DONGLE
   - board: seeeduino_xiao_ble
     shield: skeletylxiao_dongle rgbled_adapter 
-    snippet: studio-rpc-usb-uart zmk-usb-logging cdc-acm-console
+    #snippet: studio-rpc-usb-uart zmk-usb-logging cdc-acm-console
     cmake-args: -DCONFIG_ZMK_STUDIO=y 
   #HALVES
   - board: seeeduino_xiao_ble
     shield: skeletylxiao_left rgbled_adapter
-    snippet: studio-rpc-usb-uart zmk-usb-logging cdc-acm-console
+    #snippet: studio-rpc-usb-uart zmk-usb-logging cdc-acm-console
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 
   - board: seeeduino_xiao_ble
     shield: skeletylxiao_right rgbled_adapter 
-    snippet: studio-rpc-usb-uart zmk-usb-logging
+    #snippet: studio-rpc-usb-uart zmk-usb-logging
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 
   #RESET
