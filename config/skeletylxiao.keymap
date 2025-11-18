@@ -37,7 +37,7 @@
         chord1: chord1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp C &kp H &kp SPACE>;
+            bindings = <&kp B &kp E &kp C &kp A &kp U &kp S &kp E &kp SPACE>;
             label = "CHORD1";
         };
     };
