@@ -28,7 +28,7 @@
         compatible = "zmk,combos";
 
         ch1 {
-            bindings = <&none>;
+            bindings = <&chord1>;
             key-positions = <22 23>;
         };
     };
