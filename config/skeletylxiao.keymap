@@ -24,23 +24,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        ch1 {
-            bindings = <&chord1>;
-            key-positions = <22 23>;
-        };
-    };
-
-    macros {
-        chord1: chord1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp B &kp E &kp C &kp A &kp U &kp S &kp E &kp SPACE>;
-            label = "CHORD1";
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
